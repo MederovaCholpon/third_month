@@ -1,0 +1,35 @@
+*   {
+    box-sizing: border-box;
+}
+
+body    {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px ;
+}
+
+p   {
+    font-size: 25px;
+    font-style: italic;
+}
+
+#elem   {
+    width: 400px;
+    height: 50px;
+    padding: 25px;
+    font-size: 25px;
+}
+
+#button   {
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#str    {
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline;
+}
