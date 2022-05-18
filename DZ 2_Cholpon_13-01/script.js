@@ -7,6 +7,6 @@ let position = 0;
   if (l == 600 && t < 600) block2.style.top = t + 1 + 'px';
   if (l > 0 && t == 600) block2.style.left = l - 1 + 'px';
   if (l == 0 && t > 0) block2.style.top = t - 1 + 'px';
-  setTimeout(recurs, 8);
+  setTimeout(recurs, 4);
 	//console.log(position);
 })();
