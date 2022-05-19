@@ -67,6 +67,7 @@ console.log(modal, "modal");
 console.log(modalTrigger, " modalTrigger");
 console.log(closeModalBtn, " closeModalBtn");
 
+
 const openModal = () => {
   modal.classList.add("show");
   modal.classList.remove("hide");
@@ -88,3 +89,10 @@ modal.addEventListener("click", (event) => {
   }
 });
 closeModalBtn.addEventListener("click", closeModal);
+
+window.addEventListener("scroll", () => {
+  console.log(window.pageYOffset)
+  if (window.pageYOffset > 3745) {
+    openModal()
+  }
+});
